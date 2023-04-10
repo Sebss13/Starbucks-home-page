@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header{
+    display: flex;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+  
+   height: 90px;
+}
+.btons{
+    display: flex;
+    font-variant: small-caps;
+    font-size: 20px;
+    justify-content: space-between;
+    width: 1000vh;
+    padding-right: 60px;
+    
+}
+.btons a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin:0 30px;
+}
+.right{
+    display: flex;
+}
+.right a{
+    color: rgb(40, 156, 29);
+}
+.rr{
+    display: flex;
+    font-variant: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+.rr img{
+    margin:0  10px;
+}
+.left a:hover{
+    transition: .5s;
+    color: rgb(3, 112, 10);
+}
+#left img{
+    position: sticky;
+    top: 0px;
+}
+main{
+    display: flex;
+}
+.absolute{
+   display: grid;
+padding-left: 160px; 
+position: sticky;
+bottom: 100px;
+}
+.absolute a{
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+   border:1px solid white;
+   padding: 7px;
+  width: fit-content;
+margin: 7px;
+
+}
+
+.title{
+    font-weight: 600;
+    font-size: 30px;
+    margin:20px 50px;
+}
+.subtitle{
+    color: gray;
+    font-weight: 600;
+    margin: 20px 40px;
+}
+.ltitle{
+    font-family: 25px;
+    font-weight: 600;
+    font-variant: small-caps;
+    margin: 40px 40px;
+}
+.comanda{
+    text-decoration: none;
+    color: rgb(43, 139, 30);
+    border: 1px solid ;
+    border-radius: 20px;
+    padding: 7px;
+    font-weight: 600;
+    margin: 20px 40px;
+}
